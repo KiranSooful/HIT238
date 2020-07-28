@@ -1,0 +1,50 @@
+.main_background {
+    padding: 25px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content, .link{
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.content{
+    font-family: sans-serif;
+}
+
+.link{
+    font-family: times;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link:hover {
+    transition: color .9s;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.pic{
+    width: 10%;
+}
+
+@media (min-width: 568px) and (max-width: 823px) {
+    .main_background {
+        background-image: url('../images/background.jpg');
+    }
+}
+
+@media (min-width: 320px) and (max-width: 414px){
+    .main_background {
+        background-image: url('../images/hammer.jpg');
+    }
+}
+
+@media (min-width: 700px) and (min-height: 768px){
+    .main_background {
+        background-image: url('../images/galaxy.jpg');
+    }
+}
